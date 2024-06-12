@@ -64,3 +64,8 @@ button{
 input#checkbox{
     width:auto;
 }
+input:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Add shadow */
+    border-color: #007bff; /* Change border color for better effect */
+}
