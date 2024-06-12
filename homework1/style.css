@@ -61,6 +61,6 @@ button{
     padding-left: 30px;
     font-size: 10px;
 }
-.checkbox{
+input#checkbox{
     width:auto;
 }
