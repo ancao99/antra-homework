@@ -1,0 +1,20 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+a{
+    font-family:'Times New Roman', Times, serif;
+    color:#76A7F8;
+    text-decoration: underline;
+    text-underline-offset: 0.25em;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
