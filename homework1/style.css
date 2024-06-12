@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+    margin:0;
+}
+h1{
+    text-align: center;
+}
+a{
+    color:#AFCEE9;
+}
+button{
+    color: white;
+}
+.container{
+    background-color: azure;
+    padding:20px;
+    border-radius: 8px;
+    box-shadow: #428BCA;
+    max-width: 400px;
+    width: 100%;
+}
+.container .form-group input, .container .form-group button{
+    width:calc(50% - 8px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.container .form-group .sign-in{
+    margin-right: 0;
+}
+.container .form-group input:last-child{
+    margin-right: 0;
+}
+.container, .form-group{
+    margin-bottom: 15px;
+}
+.container .form-group .full-width{
+    width:100%;
+}
+.checkbox{
+    width:auto;
+}
+.register{
+    background-color: #428BCA;
+}
+.sign-in{
+    background-color: #5CB85C;
+}
+.term-container{
+    display: flex;
+    align-items: center;
+}
+.form-group div{
+    flex:1;
+    padding-left: 30px;
+    font-size: 10px;
+}
+.checkbox{
+    width:auto;
+}
