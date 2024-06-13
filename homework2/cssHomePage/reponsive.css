@@ -1,15 +1,18 @@
 
-/* reponsive for footer */
 
 @media (max-width: 768px) {
     .footer {
         padding: 15px;
         font-size: 14px;   
     }
-}
-/*reponsive for card  */
-@media (max-width: 768px) {
     .cards {
         grid-template-columns: 1fr;
     }
+    h1{
+        font-size: 32px;
+    }
+    .subcribe{
+        font-size: 14px;
+    }
+   
 }

@@ -9,6 +9,10 @@ a{
     text-decoration: underline;
     text-underline-offset: 0.25em;
 }
+a:hover {
+    color: #3781F6;        
+    text-decoration: underline; 
+}
 p{
     font-family:'Times New Roman', Times, serif;
 }
@@ -16,19 +20,31 @@ h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
+    display: inline;
+    font-size: 40px;
 }
 
 .footer {
     background-color: #F9F9F9; 
     color: #000;         
-    padding: 20px;         
+    padding: calc(2%);         
     text-align: center;    
-    font-size: 16px;        
+    font-size: 16px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
 }
-
-.footer a:hover {
-    color: #ffcc00;        
-    text-decoration: underline; 
+.subcribe{
+color:#A5A9AE;
+font-size: 20px;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    gap:20px
 
-
+}
