@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>People</title>
+
+</head>
+
+<body>
+    <h1>Add People</h1>
+    <section id="people-container">
+        <form id="personForm">
+            <label for="personName"> What is your name?</label>
+            <input type="text" id="personName" placeholder="Ex: John Doe" required>
+            <label for="personAge"> Your age: </label>
+            <input type="number" id="personAge" placeholder="Ex: 123" required>
+            <button type="submit" id="submitPerson"> Add person</button>
+        </form>
+
+        <div id="add-people">Show people added:
+            <div></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
