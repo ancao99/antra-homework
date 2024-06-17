@@ -18,9 +18,10 @@ form.addEventListener("submit",(e) => {
     people.push(newPerson);
     console.log(people);
     localStorage.setItem("person",JSON.stringify(newPerson));
+    //delete the previous so it is not repeat
+    show.innerHTML = "";
     people.forEach(person => {
         const personInfo = `ID: ${person.id}, Name: ${person.name}, Age: ${person.age}`;
-       
         show.innerHTML += personInfo + "<br/>";
     });
 });
