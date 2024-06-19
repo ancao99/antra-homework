@@ -1,11 +1,12 @@
-import {
+const {
   createCounter,
   createGreeting,
   createLimitedCallFunction,
   createPerson,
   createRateLimiter,
-  functionStore,
-} from "./closures";
+  functionStore
+} = require("./closures");
+
 
 describe("closures", () => {
   describe("createGreeting", () => {
