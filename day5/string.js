@@ -26,7 +26,7 @@ console.log(str.charAt(0)); // "H"
 console.log(str.charAt(123));
 console.log(str.charAt(-4));
 
-slice: return a section of a string
+//slice: return a section of a string
 console.log(str.slice(6)); // "World"
 console.log(str.slice(0, 5)); // "Hello"
 console.log(str.slice(-1, 5)); //nothing happen
