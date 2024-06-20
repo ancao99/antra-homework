@@ -50,4 +50,4 @@ const promises = [
     Promise.resolve("data2"),
     Promise.resolve("data3"),
 ];
-console.log(sequentialPromise(promises, order));
+sequentialPromise(promises, order);
