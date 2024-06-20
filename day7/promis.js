@@ -44,6 +44,8 @@ const sequentialPromise = async (promises, order) => {
     // ];
     //results = ["data2", "data1", "data3"]
 };
+
+
 const order = [2, 1, 3]
 const promises = [
     Promise.resolve("data1"),
@@ -51,3 +53,12 @@ const promises = [
     Promise.resolve("data3"),
 ];
 sequentialPromise(promises, order);
+
+//promisses race: to see what promise is faster
+const promiseRace = Promise.race(promises).then((value) =>{
+    console.log(value);
+})
+//promises all settle
+const promiseAllSettled = Promise.allSettled(promises).then((results) =>
+    results.forEach((result) => console.log(result.status)),
+  );
